@@ -1,0 +1,23 @@
+
+GET https://jsonplaceholder.typicode.com/posts
+
+
+###
+POST https://jsonplaceholder.typicode.com/posts
+Content-Type:application/json
+
+{
+    "title":"caleb",
+    "body":"I am Born Again"
+}
+
+
+###
+POST http://127.0.0.1:8000/api/login
+Content-Type:application/json
+
+{
+	
+	"email":"caleb@wizglobal.co.ke",
+	"password":"password"
+}
